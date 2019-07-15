@@ -14,3 +14,10 @@ fields:
 - type: list
   name: paths
   label: paths
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
