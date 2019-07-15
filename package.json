@@ -6,7 +6,7 @@
   "homepage": "http://timscanlin.net",
   "twitter": "tim_scanlin",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run build:content && node server.js",
     "build": "next build",
     "build:content": "processmd content/**/*.md --outputDir content --preview 110 --summaryOutput content/summary.json",
     "build:content:watch": "processmd content/**/*.md --outputDir content --preview 110 --summaryOutput content/summary.json --watch",
