@@ -28,7 +28,7 @@
   "author": "Tim Scanlin",
   "license": "MIT",
   "devDependencies": {
-    "next": "^8.1.0",
+    "next": "^11.1.3",
     "processmd": "^4.4.2",
     "standard": "^12.0.1"
   },
